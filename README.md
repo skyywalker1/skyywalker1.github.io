@@ -58,5 +58,5 @@ For product questions, collaborations, or love notes:
 
 ---
 
-## 🐐 Built with care by Skyy  
+## 🐐 Built with care by Stephanie, owner and operator.
 “Cultivating sustainability, one wrap at a time.”
