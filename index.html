@@ -127,16 +127,17 @@
   </div>
 </section>
 
-  <section id="contact">
-    <h2>📬 Contact Us</h2>
-    <form action="https://formspree.io/f/mrbpjzaj" method="POST">
-      <input type="text" name="name" placeholder="Your name" required />
-      <input type="email" name="email" placeholder="Your email" required />
-      <textarea name="message" placeholder="Your message..." rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <p><small>Your info stays private. We'll reply as soon as we can!</small></p>
-  </section>
+  <form action="https://formspree.io/f/mrbpjzaj" method="POST">
+  <input type="text" name="name" placeholder="Your name" required />
+  <input type="email" name="email" placeholder="Your email" required />
+  <textarea name="message" placeholder="Your message..." rows="5" required></textarea>
+  
+  <!-- Redirect to thank-you page -->
+  <input type="hidden" name="_redirect" value="https://heartlandhavenfarm.org/thanks.html">
+  
+  <button type="submit">Send Message</button>
+</form>
+<p><small>Your info stays private. We'll reply as soon as we can!</small></p>
 
 
   <footer>
