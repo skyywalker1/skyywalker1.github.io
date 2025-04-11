@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heartland Haven Farm</title>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <style>
+    body { 
+      font-family: sans-serif; 
+      background: #fdfcf9; 
+      margin: 0; 
+      padding: 0; 
+      color: #333; 
+    }
+    header, footer { 
+      background: #f0ede6; 
+      text-align: center; 
+      padding: 20px; 
+    }
+    header img { 
+      max-height: 180px; /* Increased from 100px */
+      width: auto;
+      margin-bottom: 10px;
+    }
+    section { 
+      padding: 20px; 
+      max-width: 800px; 
+      margin: auto; 
+    }
+    h2 { 
+      color: #556b2f; 
+      border-bottom: 1px solid #ccc; 
+      padding-bottom: 5px; 
+    }
+    .social-links a { 
+      margin-right: 10px; 
+      color: #444; 
+      text-decoration: none; 
+    }
+    .video-container { 
+      text-align: center; 
+      margin: 20px 0; 
+    }
+    iframe { 
+      width: 100%; 
+      max-width: 560px; 
+      height: 315px; 
+      border: none; 
+    }
+    form input, form textarea { 
+      width: 100%; 
+      padding: 10px; 
+      margin-bottom: 10px; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+    }
+    form button { 
+      background: #6b8e23; 
+      color: white; 
+      padding: 10px 15px; 
+      border: none; 
+      border-radius: 4px; 
+      cursor: pointer; 
+    }
+    nav a { 
+      margin: 0 10px; 
+      text-decoration: none; 
+      color: #556b2f; 
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Heartland Haven Farm Logo" />
+    <h1>Heartland Haven Farm</h1>
+    <p class="subtitle">Cultivating Sustainability & Handmade Living</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>🌿 Welcome</h2>
+    <p>We're building a future self-sustaining homestead. Right now, we offer handmade beeswax food wraps — and in the future: goat milk soap, soy candles, and fresh milk.</p>
+  </section>
+
+  <section>
+    <h2>🐝 WrapKind – Reusable Food Covers</h2>
+    <p>Natural, breathable wraps made with beeswax, cotton, pine resin, and jojoba oil. A sustainable way to store food.</p>
+    <ul>
+      <li>Plastic-free, compostable</li>
+      <li>Handmade in small batches</li>
+      <li>Multiple sizes for bowls, cheese, veggies & more</li>
+    </ul>
+  </section>
+
+  <section class="video-container">
+    <h2>🎥 See It in Action</h2>
+    <iframe src="https://www.youtube.com/embed/g5ZVRqkxdJE" allowfullscreen></iframe>
+  </section>
+
+  <section>
+    <h2>📱 Follow Us</h2>
+    <div class="social-links">
+      <a href="https://www.tiktok.com/@heartlandhavenfarm_" target="_blank">TikTok</a> |
+      <a href="https://www.facebook.com/heartlandhavenfarms" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/heartlandhavenfarm_" target="_blank">Instagram</a> |
+      <a href="https://www.youtube.com/@heartlandhavenfarm" target="_blank">YouTube</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>📬 Contact Us</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" placeholder="Your message..." rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p><small>Your info stays private. We'll reply as soon as we can!</small></p>
+  </section>
+
+    <section id="gallery">
+    <h2>📸 Photo Gallery</h2>
+    <p>A glimpse into our handmade journey and future homestead dreams:</p>
+    <div class="gallery">
+      <img src="assets/gallery1.jpg" alt="Beeswax wrap in use" />
+      <img src="assets/gallery2.jpg" alt="Behind the scenes" />
+      <img src="assets/gallery3.jpg" alt="Handmade process" />
+      <img src="assets/gallery4.jpg" alt="Nature around the farm" />
+    </div>
+  </section>
+  <footer>
+    &copy; 2025 Heartland Haven Farms • Handmade with love in North Carolina. 🐐🌾
+  </footer>
+</body>
+</html>
