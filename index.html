@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Heartland Haven Farm</title>
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-jQ7WqPt84fE7K4+K8q9kOg6yxwktd2tI+KtfQ8qB+z5YKpGqgVhh2nVk1Bq6UuZsLzF0wEnG9yx0dR9kfi3iQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Reliable Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <style>
-    body { font-family: 'Helvetica', sans-serif; margin:0; padding:0; background:#fdfcf9; color:#333; }
+    body { font-family:'Helvetica', sans-serif; margin:0; padding:0; background:#fdfcf9; color:#333; }
     header, footer { background:#f0ede6; text-align:center; padding:20px; }
     header img { max-height:120px; margin-bottom:10px; }
     nav a { margin:0 12px; text-decoration:none; color:#556b2f; font-weight:bold; }
@@ -32,7 +33,7 @@
     .product-card { background:#fff8dc; padding:15px; border-radius:8px; box-shadow:0 3px 6px rgba(0,0,0,0.1); text-align:center; }
     .product-card img { max-width:100%; border-radius:5px; }
     .gallery { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:20px; }
-    .gallery div { width:100%; max-width:200px; height:120px; background:#f2f2f2; display:flex; align-items:center; justify-content:center; border-radius:8px; font-size:2em; }
+    .gallery div { width:200px; height:150px; background:#f2f2f2; display:flex; align-items:center; justify-content:center; border-radius:8px; font-size:2em; }
     .social-links { text-align:center; margin-top:30px; }
     .social-links a {
       margin:0 10px;
@@ -40,15 +41,11 @@
       font-size:1.5em;
       transition: transform 0.2s, color 0.2s;
     }
-    .social-links a:hover {
-      color:#6b8e23;
-      transform: scale(1.2);
-    }
+    .social-links a:hover { color:#6b8e23; transform:scale(1.2); }
     footer { margin-top:40px; font-size:0.9em; color:#444; }
     @media(max-width:600px){
       .hero { font-size:1.5em; height:250px; }
       .products { grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); }
-      .gallery div { max-width:150px; height:100px; }
     }
   </style>
 </head>
@@ -83,12 +80,12 @@
       <div class="product-card">
         <img src="assets/airfreshener.jpg" alt="Air Freshener">
         <h3>Air Fresheners</h3>
-        <p>Handmade natural scents for your home.</p>
+        <p>Handmade natural scents to make your home smell amazing.</p>
       </div>
       <div class="product-card">
         <img src="assets/carpetfreshener.jpg" alt="Carpet Freshener">
         <h3>Carpet Fresheners</h3>
-        <p>Eco-friendly powders to keep your home fresh.</p>
+        <p>Eco-friendly powders to keep your carpets fresh and clean.</p>
       </div>
     </div>
   </section>
