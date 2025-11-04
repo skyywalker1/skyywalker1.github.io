@@ -33,10 +33,27 @@
       border-bottom: 1px solid #ccc; 
       padding-bottom: 5px; 
     }
-    .social-links a { 
-      margin-right: 10px; 
-      color: #444; 
+    nav a { 
+      margin: 0 10px; 
       text-decoration: none; 
+      color: #556b2f; 
+      font-weight: bold;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+    .social-links a {
+      color: #444;
+      text-decoration: none;
+      font-size: 24px;
+      transition: transform 0.2s ease;
+    }
+    .social-links a:hover {
+      transform: scale(1.2);
+      color: #6b8e23;
     }
     .video-container { 
       text-align: center; 
@@ -63,12 +80,12 @@
       border-radius: 4px; 
       cursor: pointer; 
     }
-    nav a { 
-      margin: 0 10px; 
-      text-decoration: none; 
-      color: #556b2f; 
+    form button:hover {
+      background: #556b2f;
     }
   </style>
+  <!-- Font Awesome for social icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -77,29 +94,21 @@
     <h1>Heartland Haven Farm</h1>
     <p class="subtitle">Cultivating Sustainability & Handmade Living</p>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="products.html">Products</a>
-  <a href="recipes.html">Recipes</a>
-  <a href="blog.html">Blog</a>
-  <a href="#contact">Contact</a>
-</nav>
-
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="blog.html">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
   <section>
     <h2>🌿 Welcome</h2>
-    <p>We're building a future self-sustaining homestead. Right now, we offer handmade beeswax food wraps — and in the future: goat milk soap, soy candles, and fresh goats milk.</p>
-  </section>
-
-  <section>
-    <h2>🐝 WrapKind – Reusable Food Covers</h2>
-    <p>Natural, breathable wraps made with beeswax, cotton, pine resin, and jojoba oil. A sustainable way to store food.</p>
-    <ul>
-      <li>Plastic-free, compostable</li>
-      <li>Handmade in small batches</li>
-      <li>Multiple sizes for bowls, cheese, veggies & more</li>
-    </ul>
+    <p>
+      Welcome to Heartland Haven Farm! We're building a self-sustaining homestead and creating handmade products that bring warmth, comfort, and a touch of nature into your home. 
+      We offer <strong>foaming hand soaps</strong> in a variety of delightful scents — perfect for <strong>fall and Christmas</strong> — as well as our popular <strong>carpet fresheners</strong> made with natural ingredients.
+    </p>
   </section>
 
   <section class="video-container">
@@ -110,40 +119,40 @@
   <section>
     <h2>📱 Follow Us</h2>
     <div class="social-links">
-      <a href="https://www.tiktok.com/@heartlandhavenfarm_" target="_blank">TikTok</a> |
-      <a href="https://www.facebook.com/heartlandhavenfarms" target="_blank">Facebook</a> |
-      <a href="https://www.instagram.com/heartlandhavenfarm_" target="_blank">Instagram</a> |
-      <a href="https://www.youtube.com/@heartlandhavenfarm" target="_blank">YouTube</a>
+      <a href="https://www.tiktok.com/@heartlandhavenfarm_" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.facebook.com/heartlandhavenfarms" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/heartlandhavenfarm_" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@heartlandhavenfarm" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
     </div>
   </section>
 
-<section>
-  <h2>📷 Photo Gallery – Coming Soon</h2>
-  <p style="text-align: center; color: #888;">We're gathering our favorite snapshots from the farm and product shoots. Check back soon for cozy photos and behind-the-scenes moments!</p>
-  <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-    <div style="width: 200px; height: 150px; background: #f2f2f2; display: flex; align-items: center; justify-content: center; border-radius: 8px;">🖼️</div>
-    <div style="width: 200px; height: 150px; background: #f2f2f2; display: flex; align-items: center; justify-content: center; border-radius: 8px;">🖼️</div>
-    <div style="width: 200px; height: 150px; background: #f2f2f2; display: flex; align-items: center; justify-content: center; border-radius: 8px;">🖼️</div>
-  </div>
-  
-<section id="contact">
-  <h2>📬 Contact Us</h2>
-  <form action="https://formspree.io/f/myzeogbk" method="POST">
-    <input type="text" name="name" placeholder="Your name" required />
-    <input type="email" name="email" placeholder="Your email" required />
-    <textarea name="message" placeholder="Your message..." rows="5" required></textarea>
+  <section>
+    <h2>📷 Photo Gallery – Coming Soon</h2>
+    <p style="text-align: center; color: #888;">
+      We're gathering our favorite snapshots from the farm and product shoots. Check back soon for cozy photos and behind-the-scenes moments!
+    </p>
+    <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+      <div style="width: 200px; height: 150px; background: #f2f2f2; display: flex; align-items: center; justify-content: center; border-radius: 8px;">🖼️</div>
+      <div style="width: 200px; height: 150px; background: #f2f2f2; display: flex; align-items: center; justify-content: center; border-radius: 8px;">🖼️</div>
+      <div style="width: 200px; height: 150px; background: #f2f2f2; display: flex; align-items: center; justify-content: center; border-radius: 8px;">🖼️</div>
+    </div>
+  </section>
 
-    <!-- Redirect after submit -->
-    <input type="hidden" name="_redirect" value="https://heartlandhavenfarm.org/thanks.html">
-
-    <button type="submit">Send Message</button>
-  </form>
-  <p><small>Your info stays private. We'll reply as soon as we can!</small></p>
-</section>
-
+  <section id="contact">
+    <h2>📬 Contact Us</h2>
+    <form action="https://formspree.io/f/myzeogbk" method="POST">
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" placeholder="Your message..." rows="5" required></textarea>
+      <input type="hidden" name="_redirect" value="https://heartlandhavenfarm.org/thanks.html">
+      <button type="submit">Send Message</button>
+    </form>
+    <p><small>Your info stays private. We'll reply as soon as we can!</small></p>
+  </section>
 
   <footer>
-    &copy; 2025 Heartland Haven Farms • Handmade with love in North Carolina. 🐐🌾
+    &copy; 2025 Heartland Haven Farm • Handmade with love in North Carolina. 🐐🌾
   </footer>
 </body>
 </html>
+
