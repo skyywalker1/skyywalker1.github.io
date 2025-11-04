@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Heartland Haven Farm</title>
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-jQ7WqPt84fE7K4+K8q9kOg6yxwktd2tI+KtfQ8qB+z5YKpGqgVhh2nVk1Bq6UuZsLzF0wEnG9yx0dR9kfi3iQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <style>
     body { font-family: 'Helvetica', sans-serif; margin:0; padding:0; background:#fdfcf9; color:#333; }
     header, footer { background:#f0ede6; text-align:center; padding:20px; }
@@ -75,16 +77,28 @@
 
   <section>
     <h2>Follow Us</h2>
-    <div class="social-links">
-      <a href="https://www.instagram.com/heartlandhavenfarm_" target="_blank">📸 Instagram</a>
-      <a href="https://www.facebook.com/heartlandhavenfarms" target="_blank">📘 Facebook</a>
-      <a href="https://www.tiktok.com/@heartlandhavenfarm_" target="_blank">🎵 TikTok</a>
-      <a href="https://www.youtube.com/@heartlandhavenfarm" target="_blank">▶️ YouTube</a>
-    </div>
+   <div class="social-links">
+  <a href="https://www.instagram.com/heartlandhavenfarm_" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.facebook.com/heartlandhavenfarms" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.tiktok.com/@heartlandhavenfarm_" target="_blank"><i class="fab fa-tiktok"></i></a>
+  <a href="https://www.youtube.com/@heartlandhavenfarm" target="_blank"><i class="fab fa-youtube"></i></a>
+</div>
+
   </section>
 
   <footer>
-    &copy; 2025 Heartland Haven Farm • Handmade with love in North Carolina. 🐐🌾
+    &copy; 2025 Heartland Haven Farm .social-links a {
+  margin: 0 10px;
+  color: #444;
+  font-size: 1.5em;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.social-links a:hover {
+  color: #6b8e23; /* matches your theme */
+  transform: scale(1.2);
+}
+• Handmade with love in North Carolina. 🐐🌾
   </footer>
 </body>
 </html>
