@@ -29,7 +29,7 @@
       font-weight: bold;
     }
     .hero {
-      background: url('assets/hero-placeholder.jpg') center/cover no-repeat;
+      background: url('assets/hero.jpg') center/cover no-repeat;
       height: 350px;
       display: flex;
       align-items: center;
@@ -59,3 +59,117 @@
       background: #fff8dc;
       padding: 15px;
       border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .gallery div {
+      width: 200px;
+      height: 150px;
+      background: #f2f2f2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      font-size: 2em;
+    }
+    .social-links {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .social-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #444;
+      font-size: 1.1em;
+    }
+    footer {
+      background: #f0ede6;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Heartland Haven Farm Logo">
+    <h1>Heartland Haven Farm</h1>
+    <p class="subtitle">Cultivating Sustainability & Handmade Living</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    Welcome to Heartland Haven Farm
+  </div>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      Heartland Haven Farm is dedicated to creating handmade, sustainable products with care. From foaming hand soaps in seasonal scents to air fresheners and carpet fresheners, every item is crafted with love in North Carolina.
+    </p>
+  </section>
+
+  <section>
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="assets/soap-placeholder.jpg" alt="Foaming Hand Soap">
+        <h3>Foaming Hand Soap</h3>
+        <p>Many different scents, perfect for fall and Christmas.</p>
+      </div>
+      <div class="product-card">
+        <img src="assets/airfreshener-placeholder.jpg" alt="Air Freshener">
+        <h3>Air Fresheners</h3>
+        <p>Handmade, natural scents to brighten your home.</p>
+      </div>
+      <div class="product-card">
+        <img src="assets/carpetfreshener-placeholder.jpg" alt="Carpet Freshener">
+        <h3>Carpet Fresheners</h3>
+        <p>Keep your home smelling fresh with eco-friendly powders.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <div>📷</div>
+      <div>📷</div>
+      <div>📷</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Follow Us</h2>
+    <div class="social-links">
+      <a href="https://www.instagram.com/heartlandhavenfarm_" target="_blank">📸 Instagram</a>
+      <a href="https://www.facebook.com/heartlandhavenfarms" target="_blank">📘 Facebook</a>
+      <a href="https://www.tiktok.com/@heartlandhavenfarm_" target="_blank">🎵 TikTok</a>
+      <a href="https://www.youtube.com/@heartlandhavenfarm" target="_blank">▶️ YouTube</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Heartland Haven Farm • Handmade with love in North Carolina. 🐐🌾
+  </footer>
+</body>
+</html>
