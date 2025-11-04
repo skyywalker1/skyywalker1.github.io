@@ -5,21 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recipes – Heartland Haven Farm</title>
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body { font-family:'Helvetica',sans-serif; margin:0; padding:0; background:#fdfcf9; color:#333; }
     header, footer { background:#f0ede6; text-align:center; padding:20px; }
     header img { max-height:120px; margin-bottom:10px; }
     nav a { margin:0 12px; text-decoration:none; color:#556b2f; font-weight:bold; }
-    .hero { background: url('assets/hero.png') center/cover no-repeat; height:300px; display:flex; align-items:center; justify-content:center; color:white; text-shadow:1px 1px 4px rgba(0,0,0,0.6); font-size:2em; font-weight:bold; }
-    main { max-width:900px; margin:auto; padding:40px 20px; }
-    .recipe { background:#fff; padding:20px; margin-bottom:30px; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.05); }
+    .hero { background-image:url('assets/hero.png'); background-position:center; background-size:cover; background-repeat:no-repeat; height:350px; display:flex; align-items:center; justify-content:center; color:white; text-shadow:1px 1px 4px rgba(0,0,0,0.6); font-size:2em; font-weight:bold; }
+    section { padding:40px 20px; max-width:900px; margin:auto; text-align:left; }
     h2 { color:#556b2f; border-bottom:1px solid #ccc; padding-bottom:5px; }
+    .recipe { background:#fff; padding:20px; margin-bottom:30px; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.05); }
+    .recipe img { max-width:100%; border-radius:8px; margin-top:10px; }
+    .social-links { text-align:center; margin-top:30px; }
+    .social-links a { margin:0 10px; color:#444; font-size:1.5em; transition: transform 0.2s, color 0.2s; }
+    .social-links a:hover { color:#6b8e23; transform:scale(1.2); }
+    footer { margin-top:40px; font-size:0.9em; color:#444; }
+    @media(max-width:600px){ .hero{font-size:1.5em;height:250px;} }
   </style>
 </head>
 <body>
   <header>
     <img src="assets/logo.png" alt="Heartland Haven Farm Logo">
-    <h1>Recipes</h1>
+    <h1>Heartland Haven Farm</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="products.html">Products</a>
@@ -29,18 +36,55 @@
     </nav>
   </header>
 
-  <div class="hero">Our Handmade Recipes</div>
+  <div class="hero">Delicious Recipes from the Farm</div>
 
-  <main>
+  <section>
     <div class="recipe">
-      <h2>Homemade Pumpkin Soap</h2>
-      <p>A cozy fall soap recipe with pumpkin puree, shea butter, and essential oils for a warm scent.</p>
+      <h2>Homemade Goat Milk Soap Scrub</h2>
+      <p>Ingredients:</p>
+      <ul>
+        <li>1 cup fine sugar</li>
+        <li>1/2 cup goat milk soap, grated</li>
+        <li>2 tbsp coconut oil</li>
+        <li>Essential oil of your choice</li>
+      </ul>
+      <p>Instructions: Mix all ingredients until well combined. Store in an airtight jar. Use as a gentle exfoliating scrub.</p>
+      <img src="assets/soap.jpg" alt="Goat Milk Soap Scrub">
     </div>
+
     <div class="recipe">
-      <h2>Apple Cinnamon Candle</h2>
-      <p>Hand-poured soy candle with a comforting apple-cinnamon aroma — perfect for chilly evenings.</p>
+      <h2>DIY Air Freshener Spray</h2>
+      <p>Ingredients:</p>
+      <ul>
+        <li>1 cup distilled water</li>
+        <li>2 tbsp vodka</li>
+        <li>15 drops essential oil (lavender, lemon, or pine)</li>
+      </ul>
+      <p>Instructions: Mix ingredients in a spray bottle. Shake well before each use and spritz around your home for a natural fragrance.</p>
+      <img src="assets/airfreshener.jpg" alt="Air Freshener Spray">
     </div>
-  </main>
+
+    <div class="recipe">
+      <h2>Carpet Freshener Powder</h2>
+      <p>Ingredients:</p>
+      <ul>
+        <li>1 cup baking soda</li>
+        <li>15 drops essential oil (optional)</li>
+      </ul>
+      <p>Instructions: Mix together and sprinkle on carpets. Let sit for 15-20 minutes, then vacuum thoroughly for a fresh scent.</p>
+      <img src="assets/carpetfreshener.jpg" alt="Carpet Freshener Powder">
+    </div>
+  </section>
+
+  <section>
+    <h2>Follow Us</h2>
+    <div class="social-links">
+      <a href="https://www.instagram.com/heartlandhavenfarm_" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/heartlandhavenfarms" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.tiktok.com/@heartlandhavenfarm_" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.youtube.com/@heartlandhavenfarm" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </section>
 
   <footer>
     &copy; 2025 Heartland Haven Farm • Handmade with love in North Carolina. 🐐🌾
