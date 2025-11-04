@@ -14,13 +14,13 @@
     .hero { background-image:url('assets/hero.png'); background-position:center; background-size:cover; background-repeat:no-repeat; height:350px; display:flex; align-items:center; justify-content:center; color:white; text-shadow:1px 1px 4px rgba(0,0,0,0.6); font-size:2em; font-weight:bold; }
     section { padding:40px 20px; max-width:900px; margin:auto; text-align:left; }
     h2 { color:#556b2f; border-bottom:1px solid #ccc; padding-bottom:5px; }
-    .recipe { background:#fff; padding:20px; margin-bottom:30px; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.05); }
-    .recipe img { max-width:100%; border-radius:8px; margin-top:10px; }
+    .recipes { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; margin-top:20px; }
+    .recipe-card { background:#fff8dc; padding:15px; border-radius:8px; box-shadow:0 3px 6px rgba(0,0,0,0.1); text-align:center; }
+    .recipe-card img { max-width:100%; border-radius:5px; }
     .social-links { text-align:center; margin-top:30px; }
     .social-links a { margin:0 10px; color:#444; font-size:1.5em; transition: transform 0.2s, color 0.2s; }
     .social-links a:hover { color:#6b8e23; transform:scale(1.2); }
     footer { margin-top:40px; font-size:0.9em; color:#444; }
-    @media(max-width:600px){ .hero{font-size:1.5em;height:250px;} }
   </style>
 </head>
 <body>
@@ -36,43 +36,28 @@
     </nav>
   </header>
 
-  <div class="hero">Delicious Recipes from the Farm</div>
+  <div class="hero">Our Favorite Recipes</div>
 
   <section>
-    <div class="recipe">
-      <h2>Homemade Goat Milk Soap Scrub</h2>
-      <p>Ingredients:</p>
-      <ul>
-        <li>1 cup fine sugar</li>
-        <li>1/2 cup goat milk soap, grated</li>
-        <li>2 tbsp coconut oil</li>
-        <li>Essential oil of your choice</li>
-      </ul>
-      <p>Instructions: Mix all ingredients until well combined. Store in an airtight jar. Use as a gentle exfoliating scrub.</p>
-      <img src="assets/soap.jpg" alt="Goat Milk Soap Scrub">
-    </div>
+    <h2>Delicious Homemade Recipes</h2>
+    <p>These recipes highlight our farm-fresh ingredients and are perfect for cozy days at home. Enjoy handmade goodness in every bite.</p>
 
-    <div class="recipe">
-      <h2>DIY Air Freshener Spray</h2>
-      <p>Ingredients:</p>
-      <ul>
-        <li>1 cup distilled water</li>
-        <li>2 tbsp vodka</li>
-        <li>15 drops essential oil (lavender, lemon, or pine)</li>
-      </ul>
-      <p>Instructions: Mix ingredients in a spray bottle. Shake well before each use and spritz around your home for a natural fragrance.</p>
-      <img src="assets/airfreshener.jpg" alt="Air Freshener Spray">
-    </div>
-
-    <div class="recipe">
-      <h2>Carpet Freshener Powder</h2>
-      <p>Ingredients:</p>
-      <ul>
-        <li>1 cup baking soda</li>
-        <li>15 drops essential oil (optional)</li>
-      </ul>
-      <p>Instructions: Mix together and sprinkle on carpets. Let sit for 15-20 minutes, then vacuum thoroughly for a fresh scent.</p>
-      <img src="assets/carpetfreshener.jpg" alt="Carpet Freshener Powder">
+    <div class="recipes">
+      <div class="recipe-card">
+        <img src="assets/recipe1.jpg" alt="Goat Milk Soap Soap Recipe">
+        <h3>Homemade Goat Milk Soap</h3>
+        <p>Learn to make creamy, nourishing soap using fresh goat milk from our farm.</p>
+      </div>
+      <div class="recipe-card">
+        <img src="assets/recipe2.jpg" alt="Fall Cinnamon Soap Recipe">
+        <h3>Fall Cinnamon Soap</h3>
+        <p>A warm, spicy soap recipe perfect for autumn. Easy to follow and fun to make.</p>
+      </div>
+      <div class="recipe-card">
+        <img src="assets/recipe3.jpg" alt="Soy Candle Tutorial">
+        <h3>DIY Soy Candle</h3>
+        <p>Create fragrant soy candles at home with simple ingredients and step-by-step instructions.</p>
+      </div>
     </div>
   </section>
 
