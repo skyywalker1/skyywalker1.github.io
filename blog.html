@@ -5,23 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog – Heartland Haven Farm</title>
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body { font-family:'Helvetica',sans-serif; margin:0; padding:0; background:#fdfcf9; color:#333; }
     header, footer { background:#f0ede6; text-align:center; padding:20px; }
     header img { max-height:120px; margin-bottom:10px; }
     nav a { margin:0 12px; text-decoration:none; color:#556b2f; font-weight:bold; }
-    .hero { background: url('assets/hero.png') center/cover no-repeat; height:300px; display:flex; align-items:center; justify-content:center; color:white; text-shadow:1px 1px 4px rgba(0,0,0,0.6); font-size:2em; font-weight:bold; }
-    main { max-width:900px; margin:auto; padding:40px 20px; }
-    section { background:#fff; padding:20px; margin-bottom:30px; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.05); }
+    .hero { background-image:url('assets/hero.png'); background-position:center; background-size:cover; background-repeat:no-repeat; height:350px; display:flex; align-items:center; justify-content:center; color:white; text-shadow:1px 1px 4px rgba(0,0,0,0.6); font-size:2em; font-weight:bold; }
+    section { padding:40px 20px; max-width:900px; margin:auto; text-align:left; }
     h2 { color:#556b2f; border-bottom:1px solid #ccc; padding-bottom:5px; }
     .date { color:#888; font-size:0.9em; margin-bottom:10px; }
-    p { line-height:1.6em; }
+    .blog-post { background:#fff; padding:20px; margin-bottom:30px; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.05); }
+    .social-links { text-align:center; margin-top:30px; }
+    .social-links a { margin:0 10px; color:#444; font-size:1.5em; transition: transform 0.2s, color 0.2s; }
+    .social-links a:hover { color:#6b8e23; transform:scale(1.2); }
+    footer { margin-top:40px; font-size:0.9em; color:#444; }
+    @media(max-width:600px){ .hero{font-size:1.5em;height:250px;} }
   </style>
 </head>
 <body>
   <header>
     <img src="assets/logo.png" alt="Heartland Haven Farm Logo">
-    <h1>Blog</h1>
+    <h1>Heartland Haven Farm</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="products.html">Products</a>
@@ -31,24 +36,43 @@
     </nav>
   </header>
 
-  <div class="hero">Our Handmade Journey</div>
+  <div class="hero">Heartland Haven Blog</div>
 
-  <main>
-    <section>
+  <section>
+    <div class="blog-post">
       <h2>Starting Small: Why Our Homestead Dream Begins with Beeswax Wraps</h2>
-      <p class="date">Posted on April 11, 2025</p>
-      <p>Some people start with chickens. Others dig a garden. We started with beeswax. Small steps, handmade care, and a dream to build our farm one day at a time.</p>
-    </section>
+      <p class="date">Posted on April 11, 2025 by Heartland Haven Farm</p>
+      <p>Some people start their homesteading journey with chickens. Others dig a garden or build raised beds. Me? I started with beeswax.</p>
+      <p>When you're dreaming of a self-sustaining farm, it can feel overwhelming. Land is expensive, animals take daily care, and there's always something that needs fixing. But I still wanted to begin <em>something</em>, something real I could hold in my hands and share with others.</p>
+      <p>So I made my first batch of beeswax food wraps in my tiny kitchen. I melted the wax, mixed in pine resin and jojoba oil, and brushed it onto cotton fabric with a shaky hand and a hopeful heart. They weren’t perfect, but they smelled amazing, worked beautifully, and felt like a small win in the middle of a big dream.</p>
+      <p>That’s the spirit of Heartland Haven. We’re building our farm one small step at a time, starting with handmade things made with care. If you’re dreaming too, it’s okay to start where you are, with what you have. Even if it’s just a square of beeswax.</p>
+      <p>Thanks for being here. 💛</p>
+    </div>
 
-    <section>
+    <div class="blog-post">
       <h2>From Simple Scents to Cozy Spaces: The Joy of Creating Handmade Products</h2>
-      <p class="date">Posted on November 4, 2025</p>
-      <p>Handmade soaps, candles, and fresheners fill our home with warmth and joy. Each product tells a story, and creating them reminds us to slow down and savor life’s little things.</p>
-    </section>
-  </main>
+      <p class="date">Posted on November 4, 2025 by Heartland Haven Farm</p>
+      <p>When I first started making things by hand, I thought it would just be a side project — a creative outlet after long days and busy weeks. But there’s something special about taking simple ingredients, mixing them with care, and watching them become something beautiful and useful.</p>
+      <p>My kitchen slowly turned into a workshop. Mason jars lined the counter, the air smelled like peppermint and vanilla, and every batch of foaming hand soap felt like a small piece of joy bottled up. Each scent tells a story — warm cinnamon for cozy fall days, fresh pine for Christmas mornings, lavender for calm evenings after chores.</p>
+      <p>It’s not just about the products — it’s about the feeling behind them. A clean home, a comforting scent, a handmade touch that reminds us to slow down and savor life’s little things. That’s what Heartland Haven is all about: creating pieces of everyday happiness.</p>
+      <p>If you’ve ever thought about making something yourself — soap, candles, even a simple loaf of bread — try it. You might be surprised by how much peace you find in the process.</p>
+      <p>Thanks for following our journey and being part of this handmade adventure. 🌿</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Follow Us</h2>
+    <div class="social-links">
+      <a href="https://www.instagram.com/heartlandhavenfarm_" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/heartlandhavenfarms" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.tiktok.com/@heartlandhavenfarm_" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.youtube.com/@heartlandhavenfarm" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </section>
 
   <footer>
     &copy; 2025 Heartland Haven Farm • Handmade with love in North Carolina. 🐐🌾
   </footer>
 </body>
 </html>
+
