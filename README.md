@@ -1,23 +1,40 @@
 skyywalker1.github.io
-# 🌾 Heartland Haven Farm
+👋 Hi, I’m Stephanie
 
-Welcome to the official site of **Heartland Haven Farm** — a journey toward sustainability, handmade living, and farm-crafted goods. Built from the ground up with love in North Carolina.
+Operations & Communications Analyst | Aspiring Data Analyst | Front-End Developer in Progress
 
-Visit the live site: 🌐 [heartlandhavenfarm.org](https://heartlandhavenfarm.org)
+I’m transitioning my career toward data analytics and technical support, building skills in SQL, Tableau, Python, HTML/CSS, and modern development tools like GitHub Codespaces and Visual Studio Code.
 
----
+My GitHub now serves as my portfolio for projects, dashboards, analysis work, and web development.
 
-## ✨ About the Farm
+🔧 Technical Skills
 
-Heartland Haven Farm is a dream in progress — a self-sustaining homestead offering:
+Languages: SQL, Python, HTML, CSS
 
-- 🐝 Handmade beeswax food wraps (sold under the name **WrapKind**)
-- 🕯️ Soy candles (coming soon!)
-- 🧼 Goat milk soap & fresh milk (future plans)
-- 🍞 Homestead-style recipes
-- 📖 Blog on sustainability, DIY, and homesteading life
+Tools & Platforms: GitHub Codespaces, Visual Studio Code, GitHub Pages, Tableau, Excel
 
----
+Data Skills: Data cleaning, data visualization, KPI reporting, operational insights
+
+Other: Workflow optimization, documentation writing, customer support troubleshooting
+
+📂 What You’ll Find in My Repositories
+
+Data Analytics Projects: SQL queries, cleaning scripts, dashboards, KPI summaries
+
+Tableau Dashboards: Operational metrics, trend analysis, visual storytelling
+
+Web Development: HTML/CSS projects, GitHub Pages builds, responsive layouts
+
+Learning & Upskilling: Practice exercises, notes, and walkthroughs
+
+Heartland Haven Farm Site: My handmade-goods brand built fully in HTML/CSS
+
+🌾 Heartland Haven Farm (Creative Side Project)
+
+Outside of analytics, I run Heartland Haven Farm, a handmade and homestead-inspired brand.
+This project sparked my love for building clean, accessible websites and maintaining organized digital workflows.
+
+What I built:
 
 ## 🛠 Tech Stack
 
@@ -27,11 +44,9 @@ This website was created using:
 - **GitHub Pages** – Free and easy web hosting
 - **Responsive design** – Mobile-ready layout
 - **Formspree** – For contact form handling
-- **YouTube Embeds** – See our products in action!
+- **YouTube Embeds** – See our products in action!##
 
----
-
-## 📸 What’s Inside the Site
+  📸 What’s Inside the Site
 
 - Homepage with brand story, product overview, and video demo
 - Social media links
@@ -39,24 +54,10 @@ This website was created using:
 - Gallery for future product shots
 - Placeholder for recipes and blog sections
 
----
+📬 Contact
 
-## 📬 Contact
+If you’d like to connect about technical support roles, data analytics opportunities, or collaboration, message me anytime.
 
-For product questions, collaborations, or love notes:
 
-📧 [info@heartlandhavenfarm.org](mailto:info@heartlandhavenfarm.org)
+🔗 LinkedIn: linkedin.com/in/swalker010
 
----
-
-## 🤝 Let’s Connect
-
-- [TikTok](https://www.tiktok.com/@heartlandhavenfarm_)
-- [Instagram](https://www.instagram.com/heartlandhavenfarm_)
-- [Facebook](https://www.facebook.com/heartlandhavenfarms)
-- [YouTube](https://www.youtube.com/@heartlandhavenfarm)
-
----
-
-## 🐐 Built with care by Stephanie, owner and operator.
-“Cultivating sustainability, one wrap at a time.”
